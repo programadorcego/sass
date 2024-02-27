@@ -1,3 +1,13 @@
-/* Este comentário irá para o arquivo CSS */
+nav {
+    ul {
+        list-style: none;
+    }
 
-// Este comentário não irá para o Css.
+    li {
+        display: inline-block;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

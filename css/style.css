@@ -1,4 +1,11 @@
-@charset "UTF-8";
-/* Este comentário irá para o arquivo CSS */
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=style.css.map */
