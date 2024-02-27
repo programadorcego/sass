@@ -1,11 +1,6 @@
-nav ul {
-  list-style: none;
-}
-nav li {
-  display: inline-block;
-}
-nav li a {
-  text-decoration: none;
+body {
+  font-family: Helvetica;
+  color: #333;
 }
 
 /*# sourceMappingURL=style.css.map */
