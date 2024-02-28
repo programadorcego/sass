@@ -1,9 +1,11 @@
-@mixin tema($background: #000, $color: #fff, $font: Arial){
-    background: $background;
-    color: $color;
-    font: $font;
+%tema {
+    background: #000;
+    color: #fff;
+    font: Arial;
 }
 
 body {
-    @include tema();
+    @extend %tema;
+    margin: 0;
+    padding: 0;
 }
