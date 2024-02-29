@@ -1,13 +1,5 @@
-@charset "UTF-8";
-/*
-Soma: +
-Subtração: -
-Multiplicação: *
-Divisão: /
-Resto: %
-*/
 .container {
-  width: 400px;
+  width: 800px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,12 @@
-/*
-Soma: +
-Subtração: -
-Multiplicação: *
-Divisão: /
-Resto: %
-*/
+@function largura_300() {
+    @return 300px;
+}
 
-$width: 300px;
+@function dobrar($valor) {
+    @return $valor * 2;
+}
 
 .container {
-    width: $width + 100px;
+    //width: largura_300();
+    width: dobrar(400px);
 }
