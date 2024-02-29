@@ -1,11 +1,13 @@
-%tema {
-    background: #000;
-    color: #fff;
-    font: Arial;
-}
+/*
+Soma: +
+Subtração: -
+Multiplicação: *
+Divisão: /
+Resto: %
+*/
 
-body {
-    @extend %tema;
-    margin: 0;
-    padding: 0;
+$width: 300px;
+
+.container {
+    width: $width + 100px;
 }
