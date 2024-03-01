@@ -1,5 +1,5 @@
-@use "sass:math";
+@use "sass:color";
 
-//@debug math.ceil(400px / 3);
-//@debug math.floor(400px / 3)
-@debug math.round(400px / 3)
+//@debug darken(#fff, 20%)
+//@debug lighten(#000, 0.3)
+@debug color.scale(#000, $red: -30%, $blue: 15%, $alpha: 25%)
