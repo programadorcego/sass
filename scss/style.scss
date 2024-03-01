@@ -1,3 +1,37 @@
-//@debug 3px > 1px or 3px > 5px
-//@debug 3px > 1px and 3px > 5px
-@debug not (3px < 1px)
+@mixin shape($size, $circle: false){
+    width: $size;
+    height: $size;
+
+    @if $circle == true {
+        border-radius: 100%;
+    }
+}
+
+@mixin bg($bg: dark){
+    @if $bg == dark{
+        background: #000;
+    }
+    @else {
+        background: #fff;
+    }
+}
+
+@mixin bdr($bdr: null) {
+    @if $bdr == top {
+        border-top: 1px solid #000;
+    } @else if $bdr == left {
+        border-left: 1px solid #000;
+    } @else if $bdr == bottom {
+        border-bottom: 1px solid #000;
+    } @else if $bdr == right {
+        border-right: 1px solid #000;
+    } @else {
+        border: 1px solid #000;
+    }
+} 
+
+.container {
+    @include shape(100px, true);
+    @include bg("white");
+    @include bdr(bottom)
+}
