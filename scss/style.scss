@@ -1,12 +1,5 @@
-@function largura_300() {
-    @return 300px;
-}
+@use "sass:math";
 
-@function dobrar($valor) {
-    @return $valor * 2;
-}
-
-.container {
-    //width: largura_300();
-    width: dobrar(400px);
-}
+//@debug math.ceil(400px / 3);
+//@debug math.floor(400px / 3)
+@debug math.round(400px / 3)
