@@ -1,5 +1,6 @@
-@use "sass:color";
-
-//@debug darken(#fff, 20%)
-//@debug lighten(#000, 0.3)
-@debug color.scale(#000, $red: -30%, $blue: 15%, $alpha: 25%)
+//@debug 1px == 1px
+//@debug 1px != 1px;
+//@debug 3px > 1px;
+//@debug 3px < 1px;
+//@debug 3px >= 3px;
+@debug 3px <= 3px;
